@@ -1,6 +1,7 @@
 import React from "react";
 import frontendImg from "../../assets/images/front-end.png";
 import backendImg from "../../assets/images/backend.png";
+import designImg from "../../assets/images/design.png";
 
 const Services = () => {
   return (
@@ -48,8 +49,9 @@ const Services = () => {
                           className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500]
                         leading-7"
                         >
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Culpa, maxime.
+                          We create fast, responsive, and visually stunning
+                          websites using latest technologies such as HTML, CSS,
+                          JavaScript, React, Vue, and Angular.
                         </p>
                       </div>
                     </div>
@@ -88,8 +90,9 @@ const Services = () => {
                           className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500]
                         leading-7"
                         >
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Culpa, maxime.
+                          We build secure, scalable, and dynamic web
+                          applications using cutting-edge technologies such as
+                          Node.js, Python, Ruby, PHP, Java, and .NET.
                         </p>
                       </div>
                     </div>
@@ -108,11 +111,12 @@ const Services = () => {
 
               {/*-----------------left card------------------  */}
               <div className="mt-6 sm:mt-0 sm:mb-12 ">
-                <div className="flex items-center sm:flex-row">
+                <div className="flex items-center flex-col sm:flex-row">
                   <div className="flex justify-start w-full mx-auto items-center">
                     <div className="w-full sm:w-1/2 sm:pr-8">
                       <div
                         data-aos="fade-right"
+                        data-aos-delay="100"
                         data-aos-duration="1200"
                         className="bg-white p-4 rounded
                       shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
@@ -121,14 +125,15 @@ const Services = () => {
                           className="text-primaryColor font-[700] mb-3 group-hover:text-white
                         group-hover:font-[600] text-2xl"
                         >
-                          Frontend Development
+                          UX/UI Design
                         </h3>
                         <p
                           className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500]
                         leading-7"
                         >
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Culpa, maxime.
+                          We design user interfaces and user experiences that
+                          are sleek, modern, and user-friendly using design
+                          thinking and user research.
                         </p>
                       </div>
                     </div>
@@ -139,7 +144,7 @@ const Services = () => {
                   transform -translate-x-1/2 -translate-y-4 flex items-center justify-center"
                   >
                     <figure>
-                      <img src={frontendImg} alt="" />
+                      <img src={designImg} alt="" />
                     </figure>
                   </div>
                 </div>
@@ -147,12 +152,13 @@ const Services = () => {
 
               {/* --------------------------------right card-------------------------- */}
               <div className="mt-6 sm:mt-0 sm:mb-12 ">
-                <div className="flex items-center sm:flex-row">
+                <div className="flex items-center flex-col sm:flex-row">
                   <div className="flex justify-end w-full mx-auto items-center">
                     <div className="w-full sm:w-1/2 sm:pl-8">
                       <div
                         data-aos="fade-left"
-                        data-aos-duration="1300"
+                        data-aos-delay="200"
+                        data-aos-duration="1500"
                         className="bg-white p-4 rounded
                       shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                       >
@@ -160,14 +166,16 @@ const Services = () => {
                           className="text-primaryColor font-[700] mb-3 group-hover:text-white
                         group-hover:font-[600] text-2xl"
                         >
-                          Frontend Development
+                          Full-Stack Development
                         </h3>
                         <p
                           className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500]
                         leading-7"
                         >
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Culpa, maxime.
+                          We offer end-to-end web development solutions covering
+                          both front-end and back-end development using
+                          technologies such as MEAN, MERN, LAMP, and Ruby on
+                          Rails.
                         </p>
                       </div>
                     </div>
@@ -178,12 +186,11 @@ const Services = () => {
                   transform -translate-x-1/2 -translate-y-4 flex items-center justify-center"
                   >
                     <figure>
-                      <img src={frontendImg} alt="" />
+                      <img src={backendImg} alt="" />
                     </figure>
                   </div>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>

@@ -14,7 +14,6 @@ const Hero = () => {
   //   }
   // }, [count]);
 
-
   return (
     <section className="pt-0" id="about">
       <div className="container pt-14">
@@ -36,15 +35,19 @@ const Hero = () => {
               I'm Mihir Sahoo
               <br />
               <Typewriter
-               words={['Web Developer','Content Creator', 'Professional Coder',]}
-               loop={1000}
-               cursor
-               cursorStyle='.'
-               typeSpeed={70}
-               deleteSpeed={50}
-               delaySpeed={1000}
-              //  onLoopDone={handleDone}
-              //  onType={handleType}
+                words={[
+                  "Web Developer",
+                  "Content Creator",
+                  "Professional Coder",
+                ]}
+                loop={1000}
+                cursor
+                cursorStyle="."
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+                //  onLoopDone={handleDone}
+                //  onType={handleType}
               />
             </h1>
 
@@ -63,7 +66,7 @@ const Hero = () => {
                 </button>
               </a>
               <a
-                href={require("../../assets/images/ResumeM.pdf")}
+                href={require("../../assets/images/MihirR.pdf")}
                 className="text-smallTextColor font-[600] text-[16px] border-b border-solid"
                 download="Mihir_Resume"
               >
@@ -89,7 +92,7 @@ const Hero = () => {
               <span className="text-smallTextColor text-[20px] font-[600]">
                 Follow Me:
               </span>
-              <span >
+              <span>
                 <a
                   target="#"
                   href="https://www.linkedin.com/in/mihir-sahoo-483354247"
@@ -131,7 +134,7 @@ const Hero = () => {
           {/* ---------hero img------------- */}
           <div className="basis-1/3 mt-10 sm:mt-0">
             <figure className="flex items-center justify-center">
-              <img src={heroImg} alt="" className="h-[250px]"/>
+              <img src={heroImg} alt="" className="h-[250px]" />
             </figure>
           </div>
           {/* ------------hero img end----------- */}
@@ -147,13 +150,13 @@ const Hero = () => {
               <h4 className="text-headingColor font-[600] text-[32px]">
                 Years of experience
               </h4> */}
-              {/* <Circle
+          {/* <Circle
                   percent={count}
                   strokeWidth={3}
                   trailWidth={3}
                   className="h-[125px] w-[150px]"
                   /> */}
-            {/* </div>
+          {/* </div>
             <div className="mb-10">
               <h2 className="text-headingColor font-[600] text-[32px]">
                 <CountUp start={0} end={100} duration={2} suffix="%" />
